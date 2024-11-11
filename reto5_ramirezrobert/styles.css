@@ -10,12 +10,13 @@ body {
   /* Menú de navegación */
   header {
     background-color: #333;
-    padding: 1em 0;
+    padding: 0.11px;
+    font-size: 17.5px;
   }
   
   nav ul {
     list-style: none;
-    padding: 0;
+    padding: 0 20px;
     text-align: center;
   }
   
@@ -28,7 +29,7 @@ body {
     color: white;
     text-decoration: none;
     font-size: 1em;
-    padding: 15px;
+    padding: 10px 15px;
   }
   
   nav ul li a:hover {
@@ -106,4 +107,9 @@ body {
   
   .iconos{
     color: white;
+  }
+
+  .blog2{
+    width: 310px;
+    height: 160px;
   }
