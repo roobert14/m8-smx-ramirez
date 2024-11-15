@@ -1,0 +1,57 @@
+
+
+body{
+    margin: 0;
+    background-image: url(a.jpg);
+    padding: 70px;
+}
+
+main{
+    background-color: brown;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+h1{
+    border: yellow 5px solid;
+    padding: 10px;
+    color: white;
+    font-family: "Doto";
+}
+
+h2{
+    border: palevioletred 3px solid;
+    padding: 5px;
+    color: white;
+}
+
+ul {
+    border: green solid 5px;
+}
+
+ul li{
+    padding: 10px;
+    color: blue;
+}
+
+#descripcion{
+    background-color: darkslateblue;
+    text-align: center;
+    color: white;
+    padding: 40px;
+    width: 50%;
+    margin: auto;
+}
+
+#descripcion h2{
+    color: pink;
+    border: none;
+}
+
+#contenido{
+    color: white;
+}
+
+#abc{
+    color: white;
+}
