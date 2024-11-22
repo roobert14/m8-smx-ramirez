@@ -1,0 +1,55 @@
+body{
+    background-color: aliceblue;
+    padding: 0;
+    margin: 0;
+}
+
+footer{
+    background-color: rgb(73, 73, 221);
+    color: aliceblue;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    font-weight: normal;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.main{
+    text-align: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.card{
+    display: inline-block;
+    width: 20%;
+    margin: 10px;
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 10px;
+    border: lightgrey solid 2px;
+    box-shadow: 36px 35px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 36px 35px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 36px 35px 5px 0px rgba(0,0,0,0.75);;
+}
+
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+header{
+    background-color: aquamarine;
+    padding: 40px 0;
+    margin-bottom: 50px;
+
+}
+
+.card2{
+    background-color: brown;
+    color: aliceblue;
+}
