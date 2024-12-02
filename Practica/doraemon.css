@@ -1,0 +1,54 @@
+body{
+    padding: 0px;
+    margin:0px;
+    background-color: green;
+}
+
+header{
+    text-align: center;
+    background-color: red;
+    padding: 40px 0;
+    margin-bottom: 50px;
+    color: darkorange;
+}
+
+main{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    background-color: blueviolet;
+    padding: 20px 0;
+    text-align: center;
+    color: yellow;
+    font-size: 40px;
+}
+
+div{
+    display: inline-block;
+    width: 450px;
+    height: 450px;
+    overflow: hidden;
+    margin: 20px;
+    background-color: aquamarine;
+    padding: 40px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.Doraemon{
+    color: blue;
+}
+
+.Nobita{
+    color: orangered;
+}
+
+.Sisuka{
+    color: purple;
+}
+
+
+
