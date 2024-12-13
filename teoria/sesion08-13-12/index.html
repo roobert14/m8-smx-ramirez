@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explicacion de flex</title>
+
+    <style>
+        .container{
+            display: flex;
+            background-color: black;
+            justify-content: space-between;
+        }
+
+
+
+        .element{
+            padding: 30px;
+            margin: 50px;
+            border-radius: 20px;
+            font-size: 36px;
+            font-weight: bold;
+        }
+
+        main img{
+            width: 100px;
+        }
+        .avatar img{
+            width: 80px;
+            border: white solid 2px;
+            border-radius: 100%;
+        }
+        #sectionVideos{
+            display: flex;
+            background-color: beige;
+            height: 80vh;
+            justify-content: center;
+            gap: 20px;
+        }
+        
+    </style>
+
+
+</head>
+<body>
+    <main class="container">
+        <div class="element"><img src="https://static.vecteezy.com/system/resources/previews/010/994/284/non_2x/adidas-symbol-logo-white-with-name-clothes-design-icon-abstract-football-illustration-with-black-background-free-vector.jpg" alt=""></div>
+        <div class="element avatar"><img src="https://png.pngtree.com/png-vector/20220709/ourmid/pngtree-businessman-user-avatar-wearing-suit-with-red-tie-png-image_5809521.png" alt=""></div>
+    </main>
+
+        <section id="sectionVideos">
+                <video src="videoplayback.mp4" controls width="300"></video>
+                <iframe width="300" height="150" src="https://www.youtube.com/embed/QCZZwZQ4qNs" title="KAROL G - Si Antes Te Hubiera Conocido | Coke Studio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+</body>
+</html>
