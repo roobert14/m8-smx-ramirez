@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Viajes</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>Formulario de Viajes</h1>
+    <p>Complete los campos para solicitar más información sobre nuestros viajes.</p>
+
+    <form action="formulario2.html" method="GET">
+        <!-- Campo de Nombre -->
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <!-- Campo de Correo Electrónico -->
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <!-- Selector de Género -->
+        <p>Género:</p>
+        <input type="radio" id="masculino" name="genero" value="masculino" required>
+        <label for="masculino">Masculino</label>
+
+        <input type="radio" id="femenino" name="genero" value="femenino">
+        <label for="femenino">Femenino</label>
+
+        <!-- Lista de Intereses (Checkboxes) -->
+        <p>Intereses:</p>
+        <input type="checkbox" id="playas" name="intereses" value="playas">
+        <label for="playas">Playas</label>
+
+        <input type="checkbox" id="montañas" name="intereses" value="montañas">
+        <label for="montañas">Montañas</label>
+
+        <input type="checkbox" id="aventura" name="intereses" value="aventura">
+        <label for="aventura">Aventura</label>
+
+        <input type="checkbox" id="cultura" name="intereses" value="cultura">
+        <label for="cultura">Cultura</label>
+
+        <!-- Lista Desplegable para Selección de País -->
+        <label for="pais">País:</label>
+        <select id="pais" name="pais" required>
+            <option value="">Seleccione un país</option>
+            <option value="argentina">Argentina</option>
+            <option value="mexico">México</option>
+            <option value="colombia">Colombia</option>
+            <option value="peru">Perú</option>
+        </select>
+
+        <!-- Botón de Enviar -->
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
