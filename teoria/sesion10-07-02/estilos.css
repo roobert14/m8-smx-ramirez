@@ -1,0 +1,13 @@
+.table{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+th{
+    background-color: bisque;
+}
+
+td,th{
+    padding: 5px;
+}
