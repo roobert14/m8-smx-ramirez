@@ -1,0 +1,82 @@
+div{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+}
+header {
+    color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 2px solid #000;
+}
+body {
+    max-width: 1600px; 
+    margin: 0 auto; 
+    padding: 0 20px;
+    font-family: 'SF Pro Display', sans-serif;
+  }
+.container {
+    padding: 40px;
+}
+.content {
+    display: flex;
+    align-items: flex-start;
+}
+.title {
+    flex: 1;
+}
+.title h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+}
+.title h1 {
+    font-size: 50px;
+    margin: 0;
+    max-width: 350px;
+}
+.info {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 400px;
+}
+.info p {
+    font-size: 12px;
+    line-height: 1.4;
+    margin: 5px 0;
+    max-width: 350px;
+}
+.image {
+    width: 100%;
+    margin-top: 20px;
+}
+.image img {
+    width: 100%;
+    border-radius: 10px;
+}
+.button {
+    padding: 8px 16px;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+.button-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 15px;
+}
+.button-container p {
+    margin: 0;
+}
+.separator {
+    width: 100px;
+    height: 2px;
+    background-color: black;
+    margin-top: 5px;
+}
