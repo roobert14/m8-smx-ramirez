@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 80%; 
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+th, td {
+    border: 1px solid #000;
+    padding: 10px;
+    font-weight: bold;
+    height: 50px; 
+    width: 16%; 
+}
+
+thead th {
+    background-color: #ffffff;
+    font-size: 18px;
+}
+
+.reloj img {
+    max-height: 40px; 
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+}
+
+.manualidades { background-color: orange; }
+.latin { background-color: #FF9999; } 
+.arte { background-color: #99CC66; } 
+.robotica { background-color: #CC99FF; } 
+.ingenieria { background-color: #FFFF33; } 
+.refuerzo { background-color: #FF66FF; } 
+.japones { background-color: #66CCFF; } 
+.modelismo { background-color: #FFCC33; } 
+.cartografia { background-color: orange; } 
+.taller { background-color: #CC66CC; } 
+.tutoria { background-color: #C0C0C0; } 
+.recreo { background-color: #FFFFFF; }
