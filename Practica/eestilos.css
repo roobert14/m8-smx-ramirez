@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0px 100px 50px 100px;
+    padding: 90px;
+    background-color: white;
+    background-position: center;
+}
+.tabla {
+    width: 90%;
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+th, td {
+    border: 2px solid black;
+    padding: 10px;
+}
+th {
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+td {
+    text-align: left;
+    color: black;
+}
+h1, h2 {
+    color: green;
+    text-align: center;
+}

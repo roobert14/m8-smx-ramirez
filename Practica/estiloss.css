@@ -32,15 +32,15 @@ thead th {
     object-fit: contain;
 }
 
-.manualidades { background-color: orange; }
-.latin { background-color: #FF9999; } 
-.arte { background-color: #99CC66; } 
-.robotica { background-color: #CC99FF; } 
+.latin { background-color: pink; } 
+.arte { background-color: #99CC66; }
+.modelismo { background-color: #FFCC33; }  
+.refuerzo { background-color: #FF66FF; }
 .ingenieria { background-color: #FFFF33; } 
-.refuerzo { background-color: #FF66FF; } 
-.japones { background-color: #66CCFF; } 
-.modelismo { background-color: #FFCC33; } 
+.manualidades { background-color: orange; }
+.recreo { background-color: white; } 
+.japonés { background-color: #66CCFF; } 
 .cartografia { background-color: orange; } 
 .taller { background-color: #CC66CC; } 
 .tutoria { background-color: #C0C0C0; } 
-.recreo { background-color: #FFFFFF; }
+.robotica { background-color: #CC99FF; } 
