@@ -38,26 +38,24 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     margin: 0px;
 }
 .hero h1 {
-    font-size: 2.5rem;
+    font-size: 36px;
     font-weight: bold;
     color: white;
 }
 .hero p {
     max-width: 600px;
-    margin-top: 10px;
 }
 .button {
-    margin-top: 20px;
     padding: 10px 20px;
-    background-color: #e63946;
+    background-color: #ff4655;
     color: white;
     border: none;
     border-radius: 5px;
-    font-size: 1rem;
+    font-size: 16px;
     cursor: pointer;
 }
   .container {
@@ -118,7 +116,7 @@ a {
     color: white;
     border: none;
     border-radius: 5px;
-    font-size: 1rem;
+    font-size: 16px;
     cursor: pointer;
 }
 
@@ -195,7 +193,7 @@ iframe {
 }
 .sponsors h2 {
     color: #e63946;
-    font-size: 2rem;
+    font-size: 32px;
 }
 .sponsors-container {
     display: flex;
