@@ -175,7 +175,11 @@ body {
 .separacion__paginas {
     margin: 50px 0;
 }
-
+strong {
+    text-transform: uppercase;
+    font-weight: 500;
+    display: block;
+}
 /* ----------- MAIN SEGUNDA PARTE ------------- */
 
 .segunda_pagina {
@@ -206,11 +210,7 @@ body {
 
 /* ------------- MAIN TERCERA PARTE ------------- */
 
-strong {
-    text-transform: uppercase;
-    font-weight: 500;
-    display: block;
-}
+
 
 .main_tercera-pagina_texto {
     font-size: .78em;

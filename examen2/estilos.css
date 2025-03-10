@@ -1,0 +1,211 @@
+body{
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color:#0f1923;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f1923;
+    padding: 15px 20px;
+}
+.navbar .logo {
+    font-size: 18px;
+    color: #ff4655;
+    margin-right: 950px;
+}
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.navbar ul li {
+    margin: 0 15px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.hero {
+    background: url('https://static.vecteezy.com/system/resources/previews/002/296/775/non_2x/black-metallic-background-vector.jpg');
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+}
+.hero h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+}
+.hero p {
+    max-width: 600px;
+    margin-top: 10px;
+}
+.button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #e63946;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+  .container {
+    padding: 20px;
+}
+h2 {
+    color:  #ff4655;
+    text-align: center;
+    margin-top: 40px;
+}
+p{
+    color: white;
+    text-align: center;
+}
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #1e293b;
+    border-radius: 10px;
+    overflow: hidden;
+}
+th, td {
+    padding: 15px;
+    border: 1px solid #334155;
+    text-align: center;
+    color: white;
+}
+th {
+    background-color: #ff4655;
+}
+a {
+    color:  #ff4655;
+    text-decoration: none;
+}
+
+.form-container {
+    background-color: #1e293b;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.form-container input, .form-container select, .form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #374151;
+    color: white;
+}
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color:  #ff4655;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+label{
+    color: white;
+}
+
+.games-section, h1 {
+    padding: 40px;
+    color:  #ff4655 ;
+}
+.games-section h2 {
+    color:  #ff4655;
+}
+.games-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.game-card {
+    background-color: #1e293b;
+    width: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: left;
+}
+.game-card img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+}
+.game-card .content {
+    padding: 15px;
+}
+.game-card h3 {
+    margin: 0;
+}
+.game-card p {
+    font-size: 0.9rem;
+    margin: 10px 0;
+}
+.game-card .button {
+    display: block;
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+    background-color:  #ff4655;
+    border: none;
+    color: white;
+    border-radius: 0 0 10px 10px;
+    text-decoration: none;
+}
+.highlights {
+    padding: 50px 20px;
+}
+.highlights h2 {
+    font-size: 2rem;
+    color: #ff4655;
+}
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+iframe {
+    width: 80%;
+    max-width: 800px;
+    height: 450px;
+    border-radius: 10px;
+}
+.sponsors {
+    padding: 50px 0;
+}
+.sponsors h2 {
+    color: #e63946;
+    font-size: 2rem;
+}
+.sponsors-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.sponsor img {
+    width: 120px;
+    height: auto;
+    filter: grayscale(100%);
+}
