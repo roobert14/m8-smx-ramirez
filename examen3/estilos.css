@@ -1,0 +1,147 @@
+body {
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+.general{
+    display: flex;
+    list-style: none;
+}
+
+.izquierda{
+    background-color: #A52A2A;
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.willyrex{
+    width: 150px;
+    border-radius: 80px;
+    margin-top: 60px;
+    align-items: center;
+}
+
+.tituloo{
+    color: white;
+    margin-top: 40px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.parrafo{
+    color: white;
+    text-align: center;
+    margin-top: 0;
+}
+
+.menu{
+    color: white;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.menu a{
+    display: block;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    background-color: white;
+    color: #440303;
+}
+
+.texto-lista{
+    padding: 10px;
+}
+
+.linea {
+    width: 400px;
+}
+
+.logos{
+    margin-top: 60px;
+    
+}
+
+.facebook{
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: white;
+    display: flex;
+    background-color: #A52A2A;
+}
+.x{
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: white;
+    display: flex;
+}
+.ig{
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: white;
+    display: flex;
+}
+.tik{
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: white;
+    display: flex;
+}
+.tele{
+    font-size: 25px;
+    margin-bottom: 50px;
+    color: white;
+    display: flex;
+}
+
+.linea2 {
+    width: 400px;
+}
+
+.footer{
+    margin-top: 40px;
+    color: white;
+}
+
+.central{
+    align-items: center;
+    display: inline-block;
+    background-image:  url(imagenes/desierto.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px;
+}
+
+.titulo{
+    margin-top: 40px;
+    text-align: center;
+    margin-left: 50px;
+    color: white;
+}
+
+.linea-ti{
+    color: red;
+    width: 40px;
+    align-items: center;
+}
+
+.parra{
+    text-align: center;
+    width: 60%;
+}
+
+
+
+
+
+
